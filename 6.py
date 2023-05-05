@@ -14,6 +14,3 @@ self.sheet = load_image('mario.png')
 self.load_from_sheet()
     # 初始化角色的一些基本常量
 self.rect = self.image.get_rect()
-self.pos = vec(WIDTH * 0.5, GROUND_HEIGHT - 70)
-self.vel = vec(0, 0)
-self.acc = vec(0, 0)
